@@ -1,0 +1,32 @@
+.divItem{
+    display: flex;
+    Flex-direction: column;
+    Justify-content: center;
+    Align-items: center;
+    Border: 2px solid black;
+    Width: 20%;
+    Border-radius: 10px;
+    Padding: 3%;
+    Margin: 2%;
+}
+
+.imgItem{
+    Width: 10vw;
+}
+
+.itemDescripcion{
+    text-align: center;
+}
+
+.btnItem{
+    background-color: #ffff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5%;
+    transition: 0.3s all;
+    margin-top: 3%;
+}
+
+.btnItem:hover{
+    transform: scale(1.1);
+}

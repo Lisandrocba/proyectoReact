@@ -1,0 +1,31 @@
+.itemDetalle{
+    display: flex;
+    flex-direction: row;
+    Margin: 0 20vh;
+   
+}
+
+.itemDetalle div{
+    padding: 5%;
+}
+
+.contenedorDescripcion p{
+    font-size: 1rem;
+}
+
+.contenedorDescripcion button{
+    padding: 5%;
+    font-size: 1rem;
+    Border: 2px solid black;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.contenedorDescripcion button:hover{
+    background-color:black;
+    color: #ffff;
+}
+
+.imgDetail{
+    width: 100%;
+}

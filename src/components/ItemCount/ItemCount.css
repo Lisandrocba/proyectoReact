@@ -1,0 +1,13 @@
+.cantidadProductos{
+    Display: flex;
+    Flex-direction: row;
+    Width: 400px
+}
+
+.cantidadProductos button{
+    Border-radius: 50%;
+    height: 30px;
+    padding: 3px 10px;
+    Text-align: center;
+    Margin: 2%;
+}

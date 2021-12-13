@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu li{
+    list-style: none;
+    padding: 3%;
+}
+
+span{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: tomato;
+    padding: 4% 15%;
+    border-radius: 50%;
+}
