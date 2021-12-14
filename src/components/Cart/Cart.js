@@ -3,17 +3,19 @@ import { CartContext } from '../../cartContext/CartContext'
 
 const Cart = () => {
 
-    const {items, addItem} = useContext(CartContext);
+    const {items, removeItems, limpiarCarrito} = useContext(CartContext);
     
-    console.log(items)
+    
 
 
     return (
         <div>
+            <button onClick={()=> limpiarCarrito()}>Limpiar Carrito</button>
             { items.map(item=>
             <>
-            <h1>{item.item.titulo}</h1>
+            <h1>{item.titulo}</h1>
             <p>{item.cantidad}</p>
+            <button onClick={()=> removeItems(item.id)}>Remover Item</button>
             </>
             )  }    
         </div>
