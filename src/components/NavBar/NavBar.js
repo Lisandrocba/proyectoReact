@@ -5,22 +5,22 @@ import "./navBar.css"
 
 export default function NavBar() {
 
-    const {items} = useContext(CartContext);
+    const { contadorProductos} = useContext(CartContext);
     
     
 
 
     return (
-        <Link className='divItem' to={`/cart`}>
+        <div className='divItem'>
             <div>
                 
             </div>
-            <div>
-                <ul className="menu">
-                    <li>Inicio</li>
-                    <li>Carrito<span>{items.length}</span></li>
-                </ul>
+            <div>  
+                <Link to={`/`}>Inicio</Link>
+                <Link to={`/cart`}>Carrito<span>{contadorProductos()}</span></Link>   
             </div>
-        </Link>
+       
+
+        </div>
     )
 }
