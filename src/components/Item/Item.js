@@ -7,7 +7,7 @@ export default function Item({id, titulo, imagen, descripcion, categoria, precio
   
 
     return (
-        <Link className='divItem' to={`/item/${id}`} key= {id}>
+        <Link style={{display:'flex', flexDirection:'column', color: 'inherit', textDecoration: 'inherit'}} className='divItem' to={`/item/${id}`} key= {id}>
             
                 <h2>{titulo}</h2>
                 <img className="imgItem" src={imagen}/>

@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://santifx.files.wordpress.com/2017/09/intro-nubes-simpsons-santifx-preview.png');
+  background-size: cover;
+  Background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {

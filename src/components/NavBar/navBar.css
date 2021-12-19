@@ -1,6 +1,20 @@
 span{
     background-color: rgba(0, 0, 0, 0.795);
+    font-size: 1rem;
     color: tomato;
-    padding: 4% 15%;
+    padding: 7% 25%;
+    transform: translateY(-20px);
     border-radius: 50%;
+    margin: 10%;
 }
+
+.divItem{
+    display: flex;
+    Flex-direction: row;
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+}
+

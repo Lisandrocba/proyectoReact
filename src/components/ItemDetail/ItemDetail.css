@@ -1,7 +1,10 @@
 .itemDetalle{
     display: flex;
     flex-direction: row;
-    Margin: 0 20vh;
+    Margin: 2% 20vh;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
    
 }
 

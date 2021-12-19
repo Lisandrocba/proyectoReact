@@ -1,0 +1,68 @@
+.carritoVacio{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+
+}
+
+.carritoCompra{
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80%;
+    height: 60vh;
+    margin: 2% auto;
+}
+
+.logoApu{
+    width: 10%;
+    margin: 0 5%;
+}
+
+.carritoVacio h1{
+    font-size: 3rem;
+}
+
+.itemCart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2% 0;  
+    border-bottom: 2px solid black;
+}
+
+.imagenItemCart{
+    width:10%;
+}
+
+.mar{
+    margin: 0 2%;
+}
+
+.pad{
+    margin-top: 2%;
+}
+
+.btnEliminarProd{
+    background: transparent;
+    border: none;
+    color: tomato;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid tomato;
+}
+
+.btnEliminarProd:hover{
+    background-color: rgb(255, 255, 130);
+}
+
+.totalCarrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}

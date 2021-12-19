@@ -8,6 +8,8 @@
     Border-radius: 10px;
     Padding: 3%;
     Margin: 2%;
+    text-decoration: none;
+    background: yellow;
 }
 
 .imgItem{
