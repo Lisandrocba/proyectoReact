@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import getProductos from "../service/data";
 import ItemList from './ItemList/ItemList';
 import './ItemListConteiner.css';
-import Categorias from './categorias/Categorias';
 import {getFirestore, getDocs,collection} from 'firebase/firestore';
 
 
@@ -36,7 +35,6 @@ const ItemListConteiner = ({greeting}) =>{
 
     return(
         <>
-            <Categorias product = {producto}/>
             <div>
                 <h1 className="tituloProductos">Productos</h1>
                 <h3>{greeting}</h3>
