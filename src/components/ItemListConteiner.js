@@ -31,12 +31,12 @@ const ItemListConteiner = ({greeting}) =>{
             })))
         })
     },[])
-    console.log(producto)
+   
 
     return(
         <>
             <div>
-                <h1 className="tituloProductos">Productos</h1>
+                <h1 className="tituloProductos">Productos:</h1>
                 <h3>{greeting}</h3>
                 <ItemList key={producto.id} producto={producto}/>
             </div>

@@ -1,4 +1,8 @@
 .tituloProductos{
     font-size: 2rem;
-    Text-align: center;
+    Text-align: start;
+    margin: 0 10px;
+    color: black;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: yellow;
 }

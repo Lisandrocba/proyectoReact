@@ -8,6 +8,7 @@ import Juegos from "./components/categorias/Juegos";
 import Comida from "./components/categorias/Comida";
 import Limpieza from "./components/categorias/Limpieza";
 import Gaseosa from "./components/categorias/Gaseosa";
+import FinCompra from "./components/FinCompra/FinCompra";
 
 
 
@@ -15,19 +16,20 @@ function App() {
   return (
       <CartProvider >
         <NavBar />
-       
-          <Link to='Categoria/Comida'>
+        <div className="categoriasMenu">
+          <Link className="linkMenu" to='Categoria/Comida'>
             Comida
           </Link>
-          <Link to='Categoria/Juegos'>
+          <Link className="linkMenu" to='Categoria/Juegos'>
             Juegos
           </Link>
-          <Link to='Categoria/Limpieza'>
+          <Link className="linkMenu" to='Categoria/Limpieza'>
             Limpieza
           </Link>
-          <Link to='Categoria/Gaseosa'>
+          <Link className="linkMenu" to='Categoria/Gaseosa'>
             Gaseosa
           </Link>
+        </div>
         
         <Routes >
             <Route path='Categoria/Comida' element={<Comida/>} />
@@ -37,6 +39,8 @@ function App() {
             <Route path='/' element={<ItemListConteiner/>} /> 
             <Route path='item/:id' element={<ItemDetailConteiner/>} />
             <Route path='Cart' element={<Cart/>} />       
+            <Route path='/compraFinalizada' element={<FinCompra/>} />       
+           
            
         </Routes>
       </CartProvider>

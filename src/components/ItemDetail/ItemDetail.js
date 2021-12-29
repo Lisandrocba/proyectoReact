@@ -1,4 +1,5 @@
 import { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { CartContext } from '../../cartContext/CartContext';
 import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css';
@@ -22,7 +23,10 @@ const ItemDetail = (props) =>{
                 <p>Precio: {precio}</p>
                 <p>Stpck: {stock}</p>
                 <ItemCount key={id} item = {props.item}  stock={stock} inicial={1} addItem = {addItem}/>
-                { items.length === 0 ? null : <button>Terminar Compra</button>}
+                { items.length === 0 ? null :
+                    <Link to={`/cart`}><button>Terminar Compra</button></Link>
+                
+                }
             </div>
         </div> 
         )

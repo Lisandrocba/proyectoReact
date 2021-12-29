@@ -1,20 +1,55 @@
 span{
     background-color: rgba(0, 0, 0, 0.795);
-    font-size: 1rem;
+    font-size: 0.5rem;
     color: tomato;
-    padding: 7% 25%;
+    padding: 10% 25%;
     transform: translateY(-20px);
     border-radius: 50%;
     margin: 10%;
 }
 
+.contenedorMenu{
+    display:flex;
+    border-bottom:2px solid black;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    background-color:yellow;
+    width: 100vw;
+}
+
 .divItem{
     display: flex;
     Flex-direction: row;
-    width: 100%;
+    width: 90%;
 }
 
 .logo{
     width: 20%;
+    margin: 1% 5%;
 }
+
+.linkInicio{
+    color: inherit;
+    text-decoration:inherit;
+    margin:0 10%;
+    font-size:1rem;
+}
+
+.linkCarrito{
+    color: inherit; 
+    text-decoration:inherit;
+    display:flex;
+    flex-direction: row;
+    font-size:1rem;
+}
+
+.contenedorLinks{
+    display:flex; 
+    flex-direction: row;
+    margin-right:0%;
+    width:20%;
+}
+
+
 
